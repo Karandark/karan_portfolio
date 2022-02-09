@@ -1,0 +1,228 @@
+            body {
+                margin: 0px;
+                box-sizing: border-box;
+            }
+            
+            .navbar {
+                border: 0px black solid;
+                padding: .4% 2%;
+                background-color: rgb(52, 52, 153);
+                display: flex;
+            }
+            
+            .navbar-left {
+                border: 0px rgb(199, 21, 21) solid;
+                width: 50%;
+                overflow: hidden;
+                display: flex;
+            }
+            
+            .navbar-left img {
+                width: 5%;
+                height: 95%;
+                border: 0px black solid;
+            }
+            
+            .navbar-left input {
+                font-weight: bold;
+                border-radius: 10px;
+                width: 100%;
+                height: 90%;
+                border: none;
+                font-size: 18px;
+                margin-left: 2%;
+                padding-left: 2%;
+                background-image: url(images/search.png);
+                background-size: 3%;
+                background-repeat: no-repeat;
+                background-position: 640px 7px;
+            }
+            
+            .navbar-right {
+                border: 0px black solid;
+                width: 50%;
+                display: flex;
+                padding-left: 7%;
+            }
+            
+            .navbar-right img {
+                width: 4%;
+                border: 0px black solid;
+                border-radius: 100%;
+            }
+            
+            .navbar-right li {
+                text-align: center;
+                padding: 8px;
+                border-right: 1px rgb(46, 46, 46) solid;
+                list-style: none;
+                color: rgb(235, 232, 232);
+                font-size: 14px;
+                font-weight: bold;
+            }
+            
+            #nav-icon {
+                width: 50%;
+                margin: auto;
+                border: 0px black solid;
+            }
+            
+            .fab {
+                margin-left: 10%;
+                font-size: 150%;
+            }
+            
+            .fas {
+                margin-left: 10%;
+                font-size: 150%;
+            }
+            
+            #container {
+                background-color: hsl(0, 0%, 90%);
+                border: 1px black solid;
+                display: flex;
+            }
+            
+            #container-1 {
+                border: 1px black solid;
+                width: 20%;
+            }
+            
+            #container-2 {
+                border: 1px black solid;
+                width: 50%;
+                padding: 1%;
+            }
+            
+            #container-3 {
+                border: 1px black solid;
+                width: 30%;
+            }
+            
+            #post {
+                border: 0px rgb(187, 182, 182) solid;
+            }
+            
+            #section-1 {
+                background-color: hsl(0, 0%, 81%);
+                border: 0px rgb(201, 203, 204) solid;
+                height: 20px;
+                padding: 1%;
+                font-weight: bolder;
+            }
+            
+            #section-2 {
+                border: 0px black solid;
+                display: flex;
+                background-color: whitesmoke;
+            }
+            
+            #section-2 img {
+                border-radius: 100%;
+                width: 5%;
+                padding: 1%;
+            }
+            
+            #section-2 p {
+                color: grey;
+                font-size: 17px;
+            }
+            
+            #section-3 {
+                border-top: 1px rgb(192, 190, 190) solid;
+                display: flex;
+                background-color: whitesmoke;
+            }
+            
+            .section-3-icon {
+                display: flex;
+                margin: 1% 0% 1% 5%;
+                padding: 1%;
+                border: 1px rgb(179, 179, 179) solid;
+                background-color: hsl(0, 0%, 81%);
+                border-radius: 20px;
+                width: 20%;
+                font-weight: bold;
+            }
+            
+            .section-3-icon img {
+                padding-right: 8%;
+            }
+            
+            #story {
+                border: 0px black solid;
+                background-color: whitesmoke;
+                margin-top: 2%;
+                padding: 1.5%;
+                display: flex;
+            }
+            
+            .fad {
+                font-size: 50px;
+                color: rgb(194, 194, 194);
+            }
+            
+            #story p {
+                border: 0px black solid;
+                font-size: 20px;
+                color: rgb(52, 52, 153);
+                font-weight: bold;
+                margin: 0px;
+                padding-left: 8px;
+            }
+            
+            #post-section {
+                border: 0px black solid;
+                background-color: whitesmoke;
+                margin-top: 2%;
+                padding: 1%;
+            }
+            
+            #post-section p {
+                border: 0px black solid;
+                margin: 0px;
+            }
+            
+            #post-section-1 {
+                display: flex;
+                justify-content: space-between;
+                border: 0px black solid;
+            }
+            
+            .far {
+                font-size: 20px;
+            }
+            
+            #post-head img {
+                border-radius: 100%;
+                width: 6%;
+            }
+            
+            #post-head p {
+                color: rgb(110, 109, 109);
+                padding-left: 1%;
+            }
+            
+            #post-head {
+                display: flex;
+                justify-content: flex-start;
+                border: 0px black solid;
+            }
+            
+            #post-image {
+                margin: 2% 2% 0% 2%;
+                border: 0px rgb(211, 17, 17) solid;
+                overflow: hidden;
+            }
+            
+            #post-image img {
+                width: 100%;
+                border: 0px black solid;
+            }
+            
+            #post-section-2 {
+                border: 0px black solid;
+                margin-left: 2%;
+                font-size: 15px;
+                font-weight: bold;
+            }
